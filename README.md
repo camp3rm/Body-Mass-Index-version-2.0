@@ -27,5 +27,3 @@ This application will take two inputs from the user, height (in m) and weight (i
     yarn start
     ```
 ***
-
-![obraz](https://github.com/user-attachments/assets/9b2deddb-78be-41f5-ba73-655b85e9721a)
