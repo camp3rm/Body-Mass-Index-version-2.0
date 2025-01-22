@@ -1,0 +1,71 @@
+.classification-table {
+	border-collapse: collapse;
+	max-width: 100%;
+	margin: 0.3125rem;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+.classification-table>tr {
+	padding: 0.1563rem 0.1563rem 0.1563rem 0.2188rem;
+}
+
+.indicator,
+.body-mass {
+	max-width: 7.8125rem;
+
+}
+
+.indicator,
+.body-mass,
+.risk-of-disease {
+	border: 0.125rem solid black;
+	color: #fff;
+	padding: 0.3125rem;
+}
+
+@media (max-width: 36rem) {
+
+	.indicator,
+	.body-mass,
+	.risk-of-disease {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 36rem) and (max-width: 48rem) {
+
+	.indicator,
+	.body-mass,
+	.risk-of-disease {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 48rem) and (max-width: 62rem) {
+
+	.indicator,
+	.body-mass,
+	.risk-of-disease {
+		font-size: 16px;
+	}
+}
+
+
+@media (min-width: 62rem) and (max-width: 75rem) {
+
+	.indicator,
+	.body-mass,
+	.risk-of-disease {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 75rem) {
+
+	.indicator,
+	.body-mass,
+	.risk-of-disease {
+		font-size: 17px;
+	}
+}
