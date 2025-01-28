@@ -20,7 +20,7 @@
 		"button": {
 			"openCalculator": "Open calculator",
 			"calculate": "Calculate BMI",
-			"return": "Back to main page"
+			"reset": "Reset all settings"
 		},
 		"calculator": {
 			"your-weight": "Weight (kg)",
