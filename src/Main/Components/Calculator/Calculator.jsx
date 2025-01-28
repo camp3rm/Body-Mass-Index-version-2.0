@@ -10,10 +10,9 @@ function Calculator() {
 	const [bmi, setBmi] = useState(null);
 	const { t, i18n } = useTranslation();
 
-	const { register, handleSubmit, formState: { errors }, trigger } = useForm({ mode: "onChange" });
+	const { register, handleSubmit, reset, formState: { errors }, trigger } = useForm({ mode: "onChange" });
 
 	const onSubmit = (data) => {
-		console.log(data);
 		const { weight, height } = data;
 		const correctWeight = parseFloat(weight.replace(",", "."));
 		const correctHeight = parseFloat(height.replace(",", "."));
@@ -36,8 +35,11 @@ function Calculator() {
 	React.useEffect(() => {
 		trigger();
 	}, [i18n.language, trigger])
-	const reloadPage = () => {
-		window.location.reload();
+
+	const resetInput = () => {
+		reset();
+		setBmi("");
+		setShowClassification(false);
 	}
 
 	return (
@@ -114,8 +116,8 @@ function Calculator() {
 			{!!bmi && showClassification && <Table />}
 			{!!bmi && showClassification && <Button
 				type='button'
-				text="main.button.return"
-				onClick={reloadPage}
+				text="main.button.reset"
+				onClick={resetInput}
 				className='calculate-btn-reload' />}
 		</div>
 
