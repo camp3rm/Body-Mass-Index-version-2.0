@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Calculator.css'
 import Button from '../Button/Button.jsx';
 import Table from '../ClassificationTable/table.jsx';
@@ -14,13 +14,15 @@ function Calculator() {
 
 	const onSubmit = (data) => {
 		const { weight, height } = data;
+		trigger(weight);
+		trigger(height);
 		const correctWeight = parseFloat(weight.replace(",", "."));
 		const correctHeight = parseFloat(height.replace(",", "."));
 		const bmi = (correctWeight / (correctHeight ** 2)).toFixed(2);
 		setBmi(bmi);
 	}
 
-	React.useEffect(() => {
+	useEffect(() => {
 		if (!!bmi) {
 			const showTimer = setTimeout(() => {
 				setShowClassification(!showClassification)
@@ -32,7 +34,7 @@ function Calculator() {
 
 	}, [bmi]);
 
-	React.useEffect(() => {
+	useEffect(() => {
 		trigger();
 	}, [i18n.language, trigger])
 
