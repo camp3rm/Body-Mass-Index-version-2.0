@@ -41,22 +41,22 @@
 		},
 		"validation": {
 			"weight": {
-				"required": "Waga jest wymagana!!",
-				"minLength": "Minimum 2 znaki!!",
+				"required": "Proszę wprowadzić swoją wage!!",
+				"minLength": "Minimalnie 2 znaki!!",
 				"maxLength": "Maksymalnie 4 znaki!!",
 				"pattern": "Nieprawidłowy format wagi",
-				"valid": "Proszę wprowadzić prawidłową wage w formacie np. 57 lub 45,7 lub 56,7!!",
-				"minCharacters": "Minimum 2 znaki!!",
+				"valid": "Proszę wprowadzić prawidłową wage w formacie: 57 lub 45,7 lub 56,7!!",
+				"minCharacters": "Minimalnie 2 znaki!!",
 				"maxCharacters": "Maksymalnie 4 znaki!!",
 				"placeholder": "Podaj swoją wage (kg)"
 			},
 			"height": {
-				"required": "Wzrost jest wymagany!!",
-				"minLength": "Minimum 2 znaki!!",
+				"required": "Proszę wprowadzić swoją wage!!",
+				"minLength": "Minimalnie 2 znaki!!",
 				"maxLength": "Maksymalnie 4 znaki!!",
 				"pattern": "Nieprawidłowy format wzrostu!!",
-				"valid": "Proszę podać prawidłowy wzrost w formacie 1,72 lub 1,57!!",
-				"minCharacters": "Minimum 2 znaki!!",
+				"valid": "Proszę podać prawidłowy wzrost w formacie: 1,72 lub 1,57!!",
+				"minCharacters": "Minimalnie 2 znaki!!",
 				"maxCharacters": "Maksymalnie 4 znaki!!",
 				"placeholder": "Podaj swój wzrost (m)"
 			}
