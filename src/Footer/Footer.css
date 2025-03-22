@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .App-footer {
 	width: 100%;
 	display: flex;
@@ -55,4 +56,63 @@
 	.gratitude {
 		font-size: 24px;
 	}
+=======
+.App-footer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, rgba(15, 155, 150, 1) 0%, rgba(41, 24, 126, 1) 100%);
+}
+
+.gratitude,
+.rodo {
+	font-weight: 400;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.gratitude {
+	font-family: "Satisfy", sans-serif;
+	font-size: 1rem;
+	margin: 0.625rem auto;
+}
+
+.rodo {
+	font-size: 0.625rem;
+	align-self: flex-start;
+	margin-left: 0.3125rem;
+	margin-bottom: 0.3125rem;
+}
+
+@media (max-width: 36rem) {
+	.gratitude {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 36rem) and (max-width: 48rem) {
+	.gratitude {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 48rem) and (max-width: 62rem) {
+	.gratitude {
+		font-size: 22px;
+	}
+}
+
+@media (min-width: 62rem) and (max-width: 75rem) {
+	.gratitude {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 75rem) {
+	.gratitude {
+		font-size: 24px;
+	}
+>>>>>>> 32af816a3f995559d27eabab18c5f105ee8f9ad3
 }

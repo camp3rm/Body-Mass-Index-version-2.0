@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"units": {
 		"unit": "kg/m",
@@ -66,4 +67,74 @@
 		"gratitude": "Dziękujemy za skorzystanie z naszych usług",
 		"rodo": "© 2024 Example Company | Wszystkie prawa zastrzeżone"
 	}
+=======
+{
+	"units": {
+		"unit": "kg/m",
+		"unitBmi": "kg/m²",
+		"unit_kg": "kg",
+		"unit_m": "m"
+	},
+	"header": {
+		"bodyMassIndex": "Indeks masa ciała"
+	},
+	"main": {
+		"description": {
+			"aboutBMI": "Wskaźnik masy ciała",
+			"aboutBMI_text": "wskaźnik Queteleta II – współczynnik powstały przez podzielenie masy ciała podanej w kilogramach przez kwadrat wysokości podanej w metrach. Dla oceny prawidłowego rozwoju dziecka wykorzystuje się siatki centylowe, które powinny być dostosowane dla danej populacji. Oznaczanie wskaźnika masy ciała ma znaczenie w ocenie zagrożenia chorobami związanymi z nadwagą i otyłością, np. cukrzycą, chorobą niedokrwienną serca, miażdżycą. Przyjmuje się, że większe BMI wiąże się ze zwiększonym ryzykiem dla zdrowia i życia.",
+			"desiredBMI": "Pożądany BMI zależy od wieku i wynosi odpowiednio:",
+			"age": "lata",
+			"over": "ponad",
+			"expression_description": "Poniżej jest pokazany wzór na BMI, gdzie masa ciała jest podana w kilogramach (kg), a wysokość ciała w metrach (m) oraz dla masy podanej w funtach (lb) a wysokości ciała w calach (in)"
+		},
+		"button": {
+			"openCalculator": "Otwórz kalkulator",
+			"calculate": "Oblicz BMI",
+			"reset": "Zresetuj wszystkie ustawienia"
+		},
+		"calculator": {
+			"your-weight": "Waga (kg)",
+			"your-height": "Wzrost (m)",
+			"result": "Twój BMI wynosi:"
+		},
+		"table": {
+			"bodyWeight": "Waga ciała",
+			"riskOfDisease": "Ryzyko chorób towarzyszących otyłości",
+			"underweight": "niedowaga",
+			"underweight_risk": "minimalne, ale zwiększony poziom wystąpienia innych problemów zdrowotnych",
+			"optimum": "optimum",
+			"optimum_risk": "minimalne",
+			"overweight": "nadwaga",
+			"overweight_risk": "średnie",
+			"obesity": "otyłość",
+			"obesity_risk": "wysokie"
+		},
+		"validation": {
+			"weight": {
+				"required": "Proszę wprowadzić swoją wage!!",
+				"minLength": "Minimalnie 2 znaki!!",
+				"maxLength": "Maksymalnie 4 znaki!!",
+				"pattern": "Nieprawidłowy format wagi",
+				"valid": "Proszę wprowadzić prawidłową wage w formacie: 57 lub 45,7 lub 56,7!!",
+				"minCharacters": "Minimalnie 2 znaki!!",
+				"maxCharacters": "Maksymalnie 4 znaki!!",
+				"placeholder": "Podaj swoją wage (kg)"
+			},
+			"height": {
+				"required": "Proszę wprowadzić swoją wage!!",
+				"minLength": "Minimalnie 2 znaki!!",
+				"maxLength": "Maksymalnie 4 znaki!!",
+				"pattern": "Nieprawidłowy format wzrostu!!",
+				"valid": "Proszę podać prawidłowy wzrost w formacie: 1,72 lub 1,57!!",
+				"minCharacters": "Minimalnie 2 znaki!!",
+				"maxCharacters": "Maksymalnie 4 znaki!!",
+				"placeholder": "Podaj swój wzrost (m)"
+			}
+		}
+	},
+	"footer": {
+		"gratitude": "Dziękujemy za skorzystanie z naszych usług",
+		"rodo": "© 2024 Example Company | Wszystkie prawa zastrzeżone"
+	}
+>>>>>>> 32af816a3f995559d27eabab18c5f105ee8f9ad3
 }

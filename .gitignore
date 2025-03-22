@@ -22,5 +22,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 .codegpt
 .qodo
+=======
+.codegpt
+>>>>>>> 32af816a3f995559d27eabab18c5f105ee8f9ad3
