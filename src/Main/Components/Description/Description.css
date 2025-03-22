@@ -1,0 +1,218 @@
+.about,
+.about-BMI {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #fff;
+	text-align: left;
+	padding: 0rem 0.3125rem;
+}
+
+.general-table {
+	margin-top: 0.9375rem;
+	color: #fff;
+}
+
+.desired-BMI,
+.desired-BMI-list,
+.desired-age-BMI {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.desired-BMI {
+	text-align: center;
+}
+
+.desired-BMI-list {
+	margin-top: 0.9375rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 50%;
+	transform: translateX(-50%);
+}
+
+.desired-age-BMI {
+	margin-bottom: 0.3125rem;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.expression,
+.expression-description {
+	padding: 0rem 0.3125rem;
+}
+
+.expression {
+	margin: 1.5625rem auto;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	font-weight: 400;
+	line-height: 1.5;
+}
+
+.expression-description {
+	text-align: left;
+}
+
+.metric-system,
+.imperial-system {
+	text-align: center;
+	border: 1px solid white;
+	border-radius: 0.625rem;
+	width: 80%;
+	margin: 0.9375rem auto;
+}
+
+.fraction {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 0.3125rem;
+}
+
+.numerator {
+	border-bottom: 1px solid white;
+	display: block;
+	padding-bottom: 0.3125rem;
+}
+
+.denominator {
+	display: block;
+}
+
+@media (max-width: 36rem) {
+
+	.about,
+	.desired-BMI,
+	.desired-age-BMI,
+	.expression-description,
+	.imperial-system,
+	.metric-system,
+	.numerator,
+	.denominator,
+	.imperial-system>span,
+	.metric-system>span,
+	.desired-age-BMI>span {
+		font-size: 14px;
+	}
+
+	.imperial-system,
+	.metric-system {
+		font-size: 14px;
+		width: 100%;
+
+	}
+
+}
+
+@media (min-width: 36rem) and (max-width: 48rem) {
+
+	.about,
+	.desired-BMI,
+	.desired-age-BMI,
+	.expression-description,
+	.imperial-system,
+	.metric-system,
+	.numerator,
+	.denominator,
+	.imperial-system>span,
+	.metric-system>span,
+	.desired-age-BMI>span {
+		font-size: 16px;
+	}
+
+	.imperial-system,
+	.metric-system {
+		font-size: 16px;
+		width: 100%;
+
+	}
+}
+
+@media (min-width: 48rem) and (max-width: 62rem) {
+
+	.about,
+	.desired-BMI,
+	.desired-age-BMI,
+	.expression-description,
+	.imperial-system,
+	.metric-system,
+	.numerator,
+	.denominator,
+	.imperial-system>span,
+	.metric-system>span,
+	.desired-age-BMI>span {
+		font-size: 18px;
+	}
+
+	.imperial-system,
+	.metric-system {
+		font-size: 18px;
+		width: 100%;
+		max-width: 48.5625rem;
+	}
+
+	.formula {
+		margin: 0 auto;
+		width: 80%;
+		max-width: 36rem;
+	}
+}
+
+
+@media (min-width: 62rem) and (max-width: 75rem) {
+
+	.about,
+	.desired-BMI,
+	.desired-age-BMI,
+	.expression-description,
+	.imperial-system,
+	.metric-system,
+	.numerator,
+	.denominator,
+	.imperial-system>span,
+	.metric-system>span,
+	.desired-age-BMI>span {
+		font-size: 18px;
+	}
+
+	.imperial-system,
+	.metric-system {
+		font-size: 18px;
+		width: 100%;
+		max-width: 48.5625rem;
+	}
+}
+
+@media (min-width: 75rem) {
+
+	.about,
+	.desired-BMI,
+	.desired-age-BMI,
+	.expression-description,
+	.imperial-system,
+	.metric-system,
+	.numerator,
+	.denominator,
+	.imperial-system>span,
+	.metric-system>span,
+	.desired-age-BMI>span {
+		font-size: 20px;
+	}
+
+	.imperial-system,
+	.metric-system {
+		font-size: 20px;
+		width: 100%;
+		max-width: 48.5625rem;
+	}
+
+	.numerator,
+	.denominator {
+		font-weight: normal;
+	}
+}
