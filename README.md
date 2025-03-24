@@ -27,4 +27,3 @@ This application will take two inputs from the user, height (in m) and weight (i
     yarn start
     ```
 ***
->>>>>>> 32af816a3f995559d27eabab18c5f105ee8f9ad3
