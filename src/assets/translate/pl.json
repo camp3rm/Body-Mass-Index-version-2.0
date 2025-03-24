@@ -6,12 +6,12 @@
 		"unit_m": "m"
 	},
 	"header": {
-		"bodyMassIndex": "Indeks masa ciała"
+		"bodyMassIndex": "Indeks masy ciała"
 	},
 	"main": {
 		"description": {
 			"aboutBMI": "Wskaźnik masy ciała",
-			"aboutBMI_text": "wskaźnik Queteleta II – współczynnik powstały przez podzielenie masy ciała podanej w kilogramach przez kwadrat wysokości podanej w metrach. Dla oceny prawidłowego rozwoju dziecka wykorzystuje się siatki centylowe, które powinny być dostosowane dla danej populacji. Oznaczanie wskaźnika masy ciała ma znaczenie w ocenie zagrożenia chorobami związanymi z nadwagą i otyłością, np. cukrzycą, chorobą niedokrwienną serca, miażdżycą. Przyjmuje się, że większe BMI wiąże się ze zwiększonym ryzykiem dla zdrowia i życia.",
+			"aboutBMI_text": "Wskaźnik Queteleta II to wskaźnik, który pozwala ocenić stopień zgodności masy ciała osoby z jej wzrostem, a tym samym pośrednio określić, czy masa jest niewystarczająca, prawidłowa czy nadmierna. Określenie wskaźnika masy ciała jest istotne dla oceny ryzyka chorób związanych z nadwagą i otyłością, takich jak cukrzyca, choroba niedokrwienna serca i miażdżyca. Przyjmuje się, że wyższy BMI wiąże się ze zwiększonym ryzykiem dla zdrowia i życia.",
 			"desiredBMI": "Pożądany BMI zależy od wieku i wynosi odpowiednio:",
 			"age": "lata",
 			"over": "ponad",
@@ -23,7 +23,7 @@
 			"reset": "Zresetuj wszystkie ustawienia"
 		},
 		"calculator": {
-			"your-weight": "Waga (kg)",
+			"your-weight": "Masa ciała (kg)",
 			"your-height": "Wzrost (m)",
 			"result": "Twój BMI wynosi:"
 		},
@@ -31,7 +31,7 @@
 			"bodyWeight": "Waga ciała",
 			"riskOfDisease": "Ryzyko chorób towarzyszących otyłości",
 			"underweight": "niedowaga",
-			"underweight_risk": "minimalne, ale zwiększony poziom wystąpienia innych problemów zdrowotnych",
+			"underweight_risk": "minimalne, ale zwiększone ryzyko innych problemów zdrowotnych",
 			"optimum": "optimum",
 			"optimum_risk": "minimalne",
 			"overweight": "nadwaga",
@@ -41,17 +41,17 @@
 		},
 		"validation": {
 			"weight": {
-				"required": "Proszę wprowadzić swoją wage!!",
+				"required": "Proszę wprowadzić swoją wagę!!",
 				"minLength": "Minimalnie 2 znaki!!",
 				"maxLength": "Maksymalnie 4 znaki!!",
 				"pattern": "Nieprawidłowy format wagi",
-				"valid": "Proszę wprowadzić prawidłową wage w formacie: 57 lub 45,7 lub 56,7!!",
+				"valid": "Proszę wprowadzić prawidłową wagę: 57 lub 45.7 lub 56,7!!",
 				"minCharacters": "Minimalnie 2 znaki!!",
 				"maxCharacters": "Maksymalnie 4 znaki!!",
 				"placeholder": "Podaj swoją wage (kg)"
 			},
 			"height": {
-				"required": "Proszę wprowadzić swoją wage!!",
+				"required": "Proszę wprowadzić swój wzrost!!",
 				"minLength": "Minimalnie 2 znaki!!",
 				"maxLength": "Maksymalnie 4 znaki!!",
 				"pattern": "Nieprawidłowy format wzrostu!!",

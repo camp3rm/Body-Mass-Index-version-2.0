@@ -11,7 +11,7 @@
 	"main": {
 		"description": {
 			"aboutBMI": "Body Mass Index",
-			"aboutBMI_text": "Quetelet II index – a coefficient created by dividing body weight in kilograms by the square of height in meters. To assess the correct development of a child, centile charts are used, which should be adapted to a given population. Determining the body mass index is important in assessing the risk of diseases related to overweight and obesity, e.g. diabetes, ischemic heart disease, atherosclerosis. It is assumed that a higher BMI is associated with an increased risk to health and life.",
+			"aboutBMI_text": "the Quetelet Index II is an indicator that allows assessing the degree of correspondence between a person's body mass and height, thereby indirectly evaluating whether the mass is insufficient, normal, or excessive. Determining the body mass index is important for assessing the risk of diseases associated with overweight and obesity, such as diabetes, coronary heart disease, and atherosclerosis. It is assumed that a higher BMI is associated with an increased risk to health and life.",
 			"desiredBMI": "The desired BMI depends on age and is as follows:",
 			"age": "ages",
 			"over": "over",
@@ -29,10 +29,10 @@
 		},
 		"table": {
 			"bodyWeight": "Body weight",
-			"riskOfDisease": "Risk of diseases associated with obesity",
+			"riskOfDisease": "Risk of diseases related to obesity",
 			"underweight": "underweight",
-			"underweight_risk": "minimal, but increased levels of other health problems",
-			"optimum": "optimum",
+			"underweight_risk": "minimal, but with an increased risk of other health issues.",
+			"optimum": "optimal",
 			"optimum_risk": "minimal",
 			"overweight": "overweight",
 			"overweight_risk": "medium",

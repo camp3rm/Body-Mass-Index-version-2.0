@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Calculator.css'
 import Button from '../Button/Button.jsx';
 import Table from '../ClassificationTable/table.jsx';
@@ -9,9 +9,6 @@ function Calculator() {
 	const [showClassification, setShowClassification] = useState(false);
 	const [bmi, setBmi] = useState(null);
 	const { t, i18n } = useTranslation();
-	const inputHeightRef = useRef(null);
-	const inputWeightRef = useRef(null);
-
 	const { register, handleSubmit, reset, formState: { errors }, trigger } = useForm({ mode: "onChange" });
 
 	const onSubmit = (data) => {
@@ -25,8 +22,6 @@ function Calculator() {
 	}
 
 	useEffect(() => {
-		inputHeightRef.current?.focus();
-		inputWeightRef.current?.focus();
 		if (!!bmi) {
 			const showTimer = setTimeout(() => {
 				setShowClassification(!showClassification)
@@ -71,7 +66,6 @@ function Calculator() {
 								return true
 							}
 						})}
-						ref={inputWeightRef}
 						placeholder={t("main.validation.weight.placeholder")}
 						name='weight'
 						type="text"
@@ -102,7 +96,6 @@ function Calculator() {
 							}
 
 						})}
-						ref={inputHeightRef}
 						placeholder={t("main.validation.height.placeholder")}
 						name='height'
 						type="text"
