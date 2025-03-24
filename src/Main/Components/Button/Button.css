@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 button {
 	width: 80%;
 	display: flex;
@@ -47,50 +46,4 @@ button:hover {
 	button {
 		font-size: 22px;
 	}
-=======
-button {
-	width: 80%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 0.625rem;
-	background-color: #646d70;
-	color: #fff;
-	height: 2.5rem;
-	margin-bottom: 1.5625rem;
-	border: none;
-	outline: none;
-	font-size: 18px;
-}
-
-@media (max-width: 576px) {
-	button {
-		font-size: 14px;
-	}
-}
-
-@media (min-width: 36rem) and (max-width: 48rem) {
-	button {
-		font-size: 16px;
-	}
-}
-
-@media (min-width: 48rem) and (max-width: 62rem) {
-	button {
-		font-size: 18px;
-	}
-}
-
-
-@media (min-width: 62rem) and (max-width: 75rem) {
-	button {
-		font-size: 20px;
-	}
-}
-
-@media (min-width: 75rem) {
-	button {
-		font-size: 22px;
-	}
->>>>>>> 32af816a3f995559d27eabab18c5f105ee8f9ad3
 }
