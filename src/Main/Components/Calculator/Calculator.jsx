@@ -31,7 +31,7 @@ function Calculator() {
 			};
 		}
 
-	}, [bmi]);
+	}, [bmi, showClassification);
 
 	useEffect(() => {
 		trigger();
