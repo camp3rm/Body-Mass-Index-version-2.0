@@ -24,7 +24,7 @@ function Calculator() {
 	useEffect(() => {
 		if (!!bmi) {
 			const showTimer = setTimeout(() => {
-				setShowClassification(!showClassification)
+				setShowClassification(true)
 			}, 3_000)
 			return () => {
 				clearTimeout(showTimer);
