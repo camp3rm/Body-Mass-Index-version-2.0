@@ -31,7 +31,7 @@ function Calculator() {
 			};
 		}
 
-	}, [bmi, showClassification]);
+	}, [bmi]);
 
 	useEffect(() => {
 		trigger();
@@ -40,7 +40,7 @@ function Calculator() {
 	const resetInput = () => {
 		reset();
 		setBmi("");
-		setShowClassification(true);
+		setShowClassification(false);
 	}
 
 	return (
