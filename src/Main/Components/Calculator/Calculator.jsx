@@ -22,16 +22,16 @@ function Calculator() {
 	}
 
 	useEffect(() => {
-		if (!!bmi) {
+		if (!!bmi && !showClassification) {
 			const showTimer = setTimeout(() => {
-				setShowClassification(true)
-			}, 3_000)
+				setShowClassification(true);
+			}, 3_000);
 			return () => {
 				clearTimeout(showTimer);
 			};
 		}
+	}, [bmi, showClassification]);
 
-	}, [bmi]);
 
 	useEffect(() => {
 		trigger();
