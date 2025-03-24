@@ -25,8 +25,8 @@ function Calculator() {
 	}
 
 	useEffect(() => {
-		inputHeightRef.current.focus();
-		inputWeightRef.current.focus();
+		inputHeightRef.current?.focus();
+		inputWeightRef.current?.focus();
 		if (!!bmi) {
 			const showTimer = setTimeout(() => {
 				setShowClassification(!showClassification)
