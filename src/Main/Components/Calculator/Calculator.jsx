@@ -40,7 +40,7 @@ function Calculator() {
 	const resetInput = () => {
 		reset();
 		setBmi("");
-		setShowClassification(false);
+		setShowClassification(true);
 	}
 
 	return (
