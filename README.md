@@ -27,7 +27,7 @@ This application will take two inputs from the user, height (in m) and weight (i
     yarn start
     ```
  3. Or follow the link:
-    ```
+    ```bash
     Source `https://fastbmi-checker.netlify.app/`
     ```
 ***
