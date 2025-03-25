@@ -28,6 +28,6 @@ This application will take two inputs from the user, height (in m) and weight (i
     ```
  3. Or follow the link:
     ```
-    (https://fastbmi-checker.netlify.app/)
+    `https://fastbmi-checker.netlify.app/`
     ```
 ***
