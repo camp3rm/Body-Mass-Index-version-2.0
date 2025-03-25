@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <header className="App-header">
-      <a href='https://bodymassindex-calculation.netlify.app/'><img src={logo} alt="BMI-logo" className="logo" /></a>
+      <a href='https://fastbmi-checker.netlify.app/'><img src={logo} alt="BMI-logo" className="logo" /></a>
       <span className='bmi-header'>{t("header.bodyMassIndex")}</span>
       <select className='language' value={changeLang} onChange={handleLanguageChange}>
         <option value="ua">UA</option>
